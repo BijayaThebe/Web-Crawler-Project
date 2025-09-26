@@ -178,7 +178,7 @@ source .venv/bin/activate
 
 ### 4. Install Dependencies
 ```bash
-pip install -r req.txt
+pip install -r requirements.txt
 ```
 
 ### 5. Run the Crawler
