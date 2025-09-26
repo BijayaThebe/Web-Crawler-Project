@@ -107,14 +107,39 @@ flowchart TD
     AC --> AD[Print summary statistics]
     AD --> AE([End])
 
-    style A fill:#f9f,stroke:#333
-    style B fill:#ccf,stroke:#333
-    style C fill:#cfc,stroke:#333
-    style D fill:#ffc,stroke:#333
-    style E fill:#fcc,stroke:#333
-    style F fill:#cff,stroke:#333
-    style R fill:#eef,stroke:#333
- 
+    %% Color styles
+    style A fill:#FFD700,stroke:#333,stroke-width:2px
+    style B fill:#87CEFA,stroke:#333,stroke-width:2px
+    style C fill:#FF6347,stroke:#333,stroke-width:2px
+    style D fill:#FFDEAD,stroke:#333,stroke-width:2px
+    style E fill:#FFA07A,stroke:#333,stroke-width:2px
+    style F fill:#7FFFD4,stroke:#333,stroke-width:2px
+    style G fill:#D8BFD8,stroke:#333,stroke-width:2px
+    style H fill:#E6E6FA,stroke:#333,stroke-width:2px
+    style I fill:#98FB98,stroke:#333,stroke-width:2px
+    style J fill:#AFEEEE,stroke:#333,stroke-width:2px
+    style K fill:#F0E68C,stroke:#333,stroke-width:2px
+    style L fill:#FFDAB9,stroke:#333,stroke-width:2px
+    style M fill:#ADD8E6,stroke:#333,stroke-width:2px
+    style N fill:#F08080,stroke:#333,stroke-width:2px
+    style O fill:#90EE90,stroke:#333,stroke-width:2px
+    style P fill:#FA8072,stroke:#333,stroke-width:2px
+    style Q fill:#FFE4B5,stroke:#333,stroke-width:2px
+    style R fill:#E0FFFF,stroke:#333,stroke-width:2px
+    style S fill:#FFFACD,stroke:#333,stroke-width:2px
+    style T fill:#FFD700,stroke:#333,stroke-width:2px
+    style U fill:#ADFF2F,stroke:#333,stroke-width:2px
+    style V fill:#7CFC00,stroke:#333,stroke-width:2px
+    style W fill:#87CEEB,stroke:#333,stroke-width:2px
+    style X fill:#DDA0DD,stroke:#333,stroke-width:2px
+    style Y fill:#F5DEB3,stroke:#333,stroke-width:2px
+    style Z fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style AA fill:#98FB98,stroke:#333,stroke-width:2px
+    style AB fill:#FA8072,stroke:#333,stroke-width:2px
+    style AC fill:#B0E0E6,stroke:#333,stroke-width:2px
+    style AD fill:#EEE8AA,stroke:#333,stroke-width:2px
+    style AE fill:#32CD32,stroke:#333,stroke-width:3px
+
 ```
 
 ---
