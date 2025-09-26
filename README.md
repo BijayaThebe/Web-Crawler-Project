@@ -141,6 +141,45 @@ flowchart TD
     style AE fill:#32CD32,stroke:#333,stroke-width:3px
 
 ```
+## ✨ Project Mind-maps
+```mermaid
+mindmap
+  root((Web Crawler))
+    Start
+    Seed Handling
+      Read seeds.txt
+        File missing → Exit with error
+        Valid seeds → Initialize output directories
+    Crawl Process
+      For each seed URL
+        Normalize to https://
+        Initialize BFS queue
+        While queue not empty
+          Dequeue URL
+          Skip if visited or depth > MAX_DEPTH
+          Mark as visited
+          Domain Validation
+            Not in allowed domains → Increment blocked count
+            In allowed domains
+              Fetch URL (with retries)
+                Fail → Log to failed_urls.txt
+                Success
+                  Parse HTML (BeautifulSoup)
+                  Extract clean title
+                  Convert to Markdown
+                  Save .md in /MDs/
+                  Append metadata
+                  Log to success_urls.txt
+                  If depth < MAX_DEPTH
+                    Extract <a href> links
+                    Normalize/validate links
+                    Enqueue valid new links (depth+1)
+                    Else → Increment blocked count
+    Finalization
+      Save metadata to index.json
+      Print summary statistics
+    End
+```
 
 ---
 ## 🚀 Getting Started [Run Program File]
