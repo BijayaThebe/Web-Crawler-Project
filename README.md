@@ -196,7 +196,7 @@ RETRY_COUNT = 3
 POLITE_DELAY = 0.5    
 ```
 
-    <img width="866" height="194" alt="image" src="https://github.com/user-attachments/assets/da121610-c2ea-4c87-b6d8-50fbfe3a7be6" />
+<img width="866" height="194" alt="image" src="https://github.com/user-attachments/assets/da121610-c2ea-4c87-b6d8-50fbfe3a7be6" />
 
 4. Set your Allowed_Domain
     <img width="1054" height="238" alt="image" src="https://github.com/user-attachments/assets/a447154d-bdf5-4703-97e3-6d34d70d8ff3" />
